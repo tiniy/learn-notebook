@@ -1,11 +1,11 @@
 ## 剑指offer
 
-* 二维数组的查找问题：
-    ` 在一个二维数组中，每一行都按照从左往右递增，每一列都按照从上往下递增。
-    请完成这样一个函数，使得输入这样一个矩阵和一个整数，判断数组中是否包含这个整数。`
-    代码如下：
+### 二维数组的查找问题：
+    在一个二维数组中，每一行都按照从左往右递增，每一列都按照从上往下递增。
+    请完成这样一个函数，使得输入这样一个矩阵和一个整数，判断数组中是否包含这个整数。
+代码如下：
 
-    ` public static boolean findFixedNumber(int matrix[][], int number){
+     public static boolean findFixedNumber(int matrix[][], int number){
               boolean found = false;
               if (matrix != null){
                   int rows = matrix.length;
@@ -24,4 +24,4 @@
                   }
               }
               return found;
-          }`
+          }
