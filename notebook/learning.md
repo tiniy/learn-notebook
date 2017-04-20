@@ -6,5 +6,6 @@
 #### git常用命令
 * 从一个远程分支创建本地分支：git checkout origin/featureName -b localFeatureName
 
-
+#### 沟通记录
+* poi与query的组合特征
 
