@@ -11,5 +11,13 @@
 
     <artifactId>learn-demo</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.meituan.hotel.recommend</groupId>
+            <artifactId>rec-client</artifactId>
+            <version>1.3.2-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
 
 </project>
